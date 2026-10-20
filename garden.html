@@ -186,20 +186,52 @@
             <path d="M30 19 Q44 17 45 30 Q33 32 30 19 M60 19 Q46 17 45 30 Q58 32 60 19"/>
           </g>
         </svg>
-        <div id="cardReading">
-          <p class="recipient">Gửi <span id="cardRecipient">bạn thương mến</span>,</p>
-          <h2 id="cardTitle">Mong những điều đẹp đẽ<br>luôn nở bên bạn.</h2>
-          <div id="cardMessage">
-            <p class="message">Một bông hoa có thể làm một ngày thêm đẹp.<br>Còn bạn, làm thế giới này dịu dàng hơn.</p>
-            <p class="message">Nhân ngày 20/10, chúc bạn luôn được yêu thương, trân trọng và có thật nhiều niềm vui. Mong bạn đủ bình yên để tận hưởng những điều nhỏ bé, đủ tự tin để theo đuổi những điều mình yêu.</p>
-            <p class="message">Hôm nay và cả những ngày sau,<br>hãy cứ rạng rỡ theo cách của riêng mình nhé.</p>
-          </div>
-          <p class="signature" id="cardSignature">Gửi bạn thật nhiều thương mến ♡</p>
-          <div class="letter-actions">
-            <button class="view-garden" id="viewGarden" type="button" autofocus>Ngắm vườn hoa</button>
-            <button class="view-garden" id="editCard" type="button">Viết lời chúc riêng</button>
-          </div>
-        </div>
+       ```html
+<div id="cardReading">
+  <p class="recipient">Gửi <span id="cardRecipient">Trâm Anh ngố</span>,</p>
+
+  <h2 id="cardTitle">Mong những điều đẹp đẽ<br>luôn bên em.</h2>
+
+  <div id="cardMessage">
+    <p class="message">
+      Em à, anh biết đôi khi em sẽ mệt mỏi, áp lực và có những
+      chuyện chẳng biết phải chia sẻ cùng ai. Nhưng anh mong em
+      nhớ rằng em không cần lúc nào cũng phải mạnh mẽ đâu, mệt
+      thì nghỉ một chút, buồn thì cứ buồn, mọi chuyện rồi sẽ dần
+      ổn thôi. Anh biết em đã cố gắng rất nhiều rồi, nên đừng
+      quá khắt khe với bản thân mình nhé.
+    </p>
+
+    <p class="message">
+      Anh có thể không ở bên em mọi lúc, không thể ôm em mỗi khi
+      em buồn, nhưng anh vẫn luôn ở đây, sẵn sàng lắng nghe và
+      cùng em đi qua những ngày không dễ dàng. Anh tin công chúa
+      của anh sẽ làm được những điều em mong muốn, chỉ cần em
+      đừng bỏ cuộc và cũng đừng quên chăm sóc bản thân mình.
+    </p>
+
+    <p class="message">
+      Không cần phải giỏi giang hay hoàn hảo trong mắt tất cả
+      mọi người đâu, với anh, em luôn là cô gái đáng được yêu
+      thương và trân trọng. Mong em sẽ có thật nhiều niềm vui,
+      luôn bình an và dù ngoài kia có mệt mỏi đến đâu, em vẫn
+      nhớ rằng có anh thương em, tin em và luôn mong những điều
+      tốt đẹp nhất sẽ đến với em. Thương Trâm Anh ngố nhiều lắm. ❤️
+    </p>
+  </div>
+
+  <p class="signature" id="cardSignature">Anti ẩn danh :))</p>
+
+  <div class="letter-actions">
+    <button class="view-garden" id="viewGarden" type="button" autofocus>
+      Ngắm vườn hoa
+    </button>
+    <button class="view-garden" id="editCard" type="button">
+      Viết lời chúc riêng
+    </button>
+  </div>
+</div>
+```
         <form class="card-editor" id="cardEditor" hidden>
           <h2 id="editorTitle">Viết chút yêu thương</h2>
           <label for="recipientInput">Gửi đến</label>
